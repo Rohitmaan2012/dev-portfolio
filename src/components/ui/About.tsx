@@ -10,7 +10,6 @@ export default function About() {
       className="scroll-offset bg-[#111418] py-24 px-6 sm:px-10 mt-24 border-t border-gray-800"
     >
       <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-center mb-16 text-white md:translate-x-7">About Me</h2>
-      {/* text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-16 text-left px-6 md:px-0 md:pl-[calc(theme(spacing.6)+theme(spacing.12))] lg:pl-[calc(theme(spacing.6)+theme(spacing.20))] */}
 
       <div className="flex flex-col md:flex-row items-center md:items-start justify-center gap-16 max-w-7xl mx-auto px-6 md:px-12 lg:px-20">
         {/* Avatar - lifted slightly above */}

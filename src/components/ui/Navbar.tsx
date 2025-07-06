@@ -32,7 +32,6 @@ const Navbar = () => {
 
         {/* Desktop Navigation */}
         <nav className="hidden lg:flex space-x-10 text-lg font-semibold text-white font-raleway">
-        {/* <nav className="hidden lg:flex gap-6 text-lg font-medium text-gray-300 font-inter"></nav> */}
           {links.map((link) => (
             <a key={link.href} href={link.href} className="hover:text-cyan-400 transition-all duration-300">
               {link.label}
