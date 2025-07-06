@@ -59,16 +59,16 @@ export default function Contact() {
         {/* Left: Illustration */}
         <div className="w-full lg:w-[45%] flex justify-center">
           <Image
-            src="/images/contactMe2.png"
+            src="/images/contactMe.png"
             alt="Contact Illustration"
             width={700}
             height={200}
-            className="object-contain"
+            className="object-contain w-full max-w-xs sm:max-w-md md:max-w-lg"
           />
         </div>
 
         {/* Right: Form */}
-        <div className="w-full lg:w-[50%] min-w-[420px]">
+        <div className="w-full lg:w-[50%] px-2">
           <form className="space-y-5 text-left" onSubmit={handleSubmit}>
             <div>
               <label className="block font-bold text-white text-[15px] mb-1" htmlFor="name">
