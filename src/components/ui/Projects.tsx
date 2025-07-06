@@ -21,7 +21,7 @@ export default function Projects() {
         {[
           {
             title: "Movie Recommendation System",
-            img: "/images/movieRS.png",
+            img: "/images/MovieRS.png",
             desc: "Implemented an AI-based API which predicts popular and top rated movies by location, recent searches and age demographics.",
             github: "https://github.com/Rohitmaan2012/Movie-Recommendation-System",
             live: "#",
