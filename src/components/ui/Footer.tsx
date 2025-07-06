@@ -4,7 +4,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="bg-gradient-to-r from-[#111111]/90 via-[#3b3f49]/90 to-[#111111]/90 text-white py-6 border-t border-white/10 shadow-sm">
+    <footer className="bg-gradient-to-r from-[#111111]/90 via-[#3b3f49]/90 to-[#111111]/90 text-white py-6 px-4 border-t border-white/10 shadow-sm">
       <div className="flex flex-col items-center justify-center gap-3">
         <div className="flex gap-6 text-2xl">
           <a

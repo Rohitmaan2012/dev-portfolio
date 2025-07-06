@@ -19,9 +19,11 @@ const Navbar = () => {
 
   return (
     <header className="sticky top-0 left-0 w-full z-50 bg-gradient-to-r from-[#111111]/90 via-[#3b3f49]/90 to-[#111111]/90 backdrop-blur-lg border-b border-white/10 shadow-sm">
-      <div className="flex justify-between items-center px-6 py-4 md:px-20">
+      <div className="flex justify-between items-center px-4 sm:px-6 md:px-20 py-4">
         {/* Logo */}
-        <a href="#hero" className="text-3xl font-extrabold tracking-tight flex items-center cursor-pointer">
+        <a 
+          href="#hero" 
+          className="text-2xl sm:text-3xl md:text-4xl font-extrabold tracking-tight flex items-center cursor-pointer">
           <span className="bg-gradient-to-r from-cyan-400 to-blue-500 text-transparent bg-clip-text">
             &lt;DEV&gt;
           </span>
