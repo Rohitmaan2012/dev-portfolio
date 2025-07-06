@@ -24,7 +24,7 @@ const Footer = () => {
             <FaLinkedin />
           </a>
         </div>
-        <p className="text-lg text-gray-300 font-medium text-center">
+        <p className="text-sm sm:text-base text-gray-300 font-medium text-center">
           © 2025 Rohit Maan. All rights reserved.
         </p>
       </div>

@@ -23,7 +23,8 @@ export default function Hero() {
       <h1 className="text-5xl sm:text-6xl md:text-7xl font-extrabold leading-tight tracking-tight mb-6 sm:whitespace-nowrap whitespace-normal">
         <span className="text-white block sm:inline">Hi, I&apos;m </span>
         <span
-          className="bg-gradient-to-r from-cyan-400 to-blue-500 text-transparent bg-clip-text sm:inline min-h-[72px] sm:min-h-0 inline-block"
+          className="bg-gradient-to-r from-cyan-400 to-blue-500 text-transparent bg-clip-text block sm:inline"
+          style={{ minHeight: "4.5rem", display: "inline-block" }}
         >
           <Typewriter
             words={["Rohit Maan", "Software Engineer"]}
@@ -36,6 +37,7 @@ export default function Hero() {
           />
         </span>
       </h1>
+
 
       <p className="text-base sm:text-xl text-gray-300 leading-relaxed mb-10 max-w-2xl whitespace-nowrap overflow-hidden text-ellipsis text-center">
         Designing digital experiences that hit different
