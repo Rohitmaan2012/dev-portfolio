@@ -26,7 +26,7 @@ export default function Hero() {
           className="bg-gradient-to-r from-cyan-400 to-blue-500 text-transparent bg-clip-text block sm:inline"
           style={{ minHeight: "4.5rem", display: "inline-block" }}
         >
-          <span className="block min-h-[3.75rem] sm:min-h-0">
+          <span className="block min-h-[6rem] sm:min-h-0">
             <Typewriter
               words={["Rohit Maan", "Software Engineer"]}
               loop={0}
@@ -40,9 +40,8 @@ export default function Hero() {
         </span>
       </h1>
 
-      <p className="text-base sm:text-xl text-gray-300 leading-relaxed mb-10 max-w-2xl whitespace-nowrap overflow-hidden text-ellipsis text-center">
-        Designing digital experiences that hit different
-        <br />
+      <p className="text-base sm:text-xl text-gray-300 leading-relaxed mb-10 max-w-2xl mt-6 sm:mt-0 px-2 sm:px-0">
+        <span className="block">Designing digital experiences that hit different</span>
         <span className="block mt-3 text-2xl sm:text-3xl font-extrabold bg-gradient-to-r from-cyan-400 to-blue-500 text-transparent bg-clip-text tracking-wide">
           Fast. Intuitive. Unforgettable.
         </span>
