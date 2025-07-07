@@ -24,9 +24,11 @@ export default function Hero() {
         <span className="text-white block sm:inline">Hi, I&apos;m </span>
         <span
           className="bg-gradient-to-r from-cyan-400 to-blue-500 text-transparent bg-clip-text block sm:inline"
-          style={{ minHeight: "4.5rem", display: "inline-block" }}
+          style={{ display: "inline-block" }}
         >
-          <span className="block min-h-[6rem] sm:min-h-0">
+          <span className="block min-h-[6rem] sm:min-h-0 leading-tight"
+          style={{ lineHeight: "1.1" }} // Ensures tight line spacing
+          >
             <Typewriter
               words={["Rohit Maan", "Software Engineer"]}
               loop={0}
