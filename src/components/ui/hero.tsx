@@ -26,7 +26,7 @@ export default function Hero() {
           className="bg-gradient-to-r from-cyan-400 to-blue-500 text-transparent bg-clip-text block sm:inline"
           style={{ display: "inline-block" }}
         >
-          <span className="block min-h-[6.5rem] sm:min-h-0 leading-tight mb-2"
+          <span className="block min-h-[6.5rem] sm:min-h-0 leading-tight mb-1"
           style={{ lineHeight: "1.1" }} // Ensures tight line spacing
           >
             <Typewriter
